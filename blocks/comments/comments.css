@@ -1,0 +1,50 @@
+.comments {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.comments__field {
+    border: none;
+}
+
+.comments__text {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 300px;
+    resize: vertical;
+    cursor: pointer;
+    border: 2px solid gray;
+    box-shadow: 2px 3px 10px rgba(34, 60, 80, 0.8);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.comments__text::placeholder {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.comments__button {
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 250px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 3px 10px rgba(34, 60, 80, 0.8);
+    background-color: rgba(64, 129, 179, 0.8);
+    color: white;
+}
+
+.comments__label {
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+    cursor: pointer;
+    color: chocolate;
+    margin-bottom: 20px;
+}
